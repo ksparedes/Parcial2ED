@@ -146,7 +146,9 @@ class ListaSimple:
             current.next=prev
             prev.next=current.next
             prev=current
-
+            current=sgte
+            
+            
         if c%2!=0:
             prev=None
             current=mitad
